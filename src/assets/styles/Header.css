@@ -1,0 +1,32 @@
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+#navbar .logo{
+    width: 4%;
+    display:flex;
+
+}
+#navbar .logo img{
+    width: 100%;
+    height:auto;
+    border-radius:30%;
+}
+#navbar .logo span{
+    margin:auto;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.navTab ul{
+    display:flex;
+    list-style: none;
+}
+.navTab li{
+    margin-right: 4em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.gb{
+    background-color: green;
+}
