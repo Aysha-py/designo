@@ -1,0 +1,12 @@
+#location .map{
+    height:50vh;
+    background-color:thistle;
+}
+#location .direction{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    padding:2em;
+    font-size: .5rem;
+}

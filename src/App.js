@@ -1,12 +1,24 @@
 import './App.css';
+
 import Header from './components/Header'
+
+import {  Routes, Route, BrowserRouter} from 'react-router-dom'
+import Location from './pages/Location'
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+    
+      <BrowserRouter>
+        <Routes>
+          <Route path ='/' element ={<Header/>}></Route>
+          <Route path ='location' element ={<Location/>}></Route>
+
+        </Routes>
+      
+      </BrowserRouter>
      
     </div>
   );

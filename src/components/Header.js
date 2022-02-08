@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../assets/img/logo.jpg"
 import Home from '../pages/Home';
-
+import Location from '../pages/Location'
 
 function Header() {
 
@@ -47,6 +47,7 @@ function Header() {
             
         </div>
         {active ===  0 && <Home/>}  
+        {active ===  1 && <Location/>}  
     </main>
   )
 }
